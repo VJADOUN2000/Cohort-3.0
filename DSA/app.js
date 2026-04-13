@@ -18,6 +18,6 @@ let b = 20;
 console.log(`The sum of ${a} and ${b} is ${a+b}`);
 
 //type coercion
+console.log(undefined-5);
 
-
-
+console.log("24" %5)
