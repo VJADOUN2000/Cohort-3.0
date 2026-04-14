@@ -11,3 +11,6 @@ let s2 = null;
 
 console.log(s1 + s2);
 
+
+// Understand operator 
+
