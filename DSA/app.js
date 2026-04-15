@@ -88,3 +88,18 @@ console.log(Math.floor(-5.1))
 
 console.log((4.567).toFixed(2)) 
 
+
+console.log(45678/10)
+
+// to get the last digit in a number use mod (%)
+
+console.log(4578%10)
+
+console.log(14<8 && 12>5 && 25>15)
+
+console.log(14<8 || 12>5 || 25>15)
+
+console.log(!(14<8 || 12>5 || 25>15))
+
+//unary operator
+
