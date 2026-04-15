@@ -74,3 +74,17 @@ console.log(a1,a2)
 
 // Understand operator 
 
+console.log(Math.floor(22/3))
+
+//Math.floor is always round down 
+
+// Like
+
+console.log(Math.floor(5.1))
+console.log(Math.floor(5.9))
+console.log(Math.floor(-5.1))
+
+//Whereas tofixed is round up
+
+console.log((4.567).toFixed(2)) 
+
