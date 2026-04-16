@@ -126,3 +126,17 @@ console.log(Math.trunc(45.89754511))
 
 //Math.pow() --> power for number
 console.log(Math.pow(5,5))
+
+//Math.max  --> return the maximum value and input multiple no.
+console.log(Math.max(45,78,99,140,45))
+
+//Math.min --> return the minimum value and input multiple no.
+console.log(Math.min(45,78,99,140,45,8))
+
+//Math.random -> give value betwwen 0-1 
+console.log(Math.random())
+
+//Math.toFixed
+
+let num =45.456;
+console.log(num.toFixed(2))
