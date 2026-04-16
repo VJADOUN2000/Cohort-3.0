@@ -112,8 +112,17 @@ console.log(!(14<8 || 12>5 || 25>15))
 console.log(Math.abs(-45))
 
 //2 Math.ceil()--> convert the float to grater value
-console.log(Math.ceil(4.1))--> 5
+console.log(Math.ceil(4.1))  //--> 5
 
 //Math.floor()--> convert the float to smaller value fo=rom original
-console.log(Math.floor(4.8)) --> 4
+console.log(Math.floor(4.8)) //--> 4
 
+
+//Math.round --> if value in decimal is greater or equal to 5 behave like ceil or less then 5 then behave like floor method
+console.log(Math.round(10.4))
+
+//Math. trunc()  --> remove the decimal value only
+console.log(Math.trunc(45.89754511))
+
+//Math.pow() --> power for number
+console.log(Math.pow(5,5))
