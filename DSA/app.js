@@ -103,3 +103,17 @@ console.log(!(14<8 || 12>5 || 25>15))
 
 //unary operator
 
+//increment--> pre and post
+//decrement --> pre and post
+
+// Math function
+
+//1 Math.abs() --> convert any negative number to positive
+console.log(Math.abs(-45))
+
+//2 Math.ceil()--> convert the float to grater value
+console.log(Math.ceil(4.1))--> 5
+
+//Math.floor()--> convert the float to smaller value fo=rom original
+console.log(Math.floor(4.8)) --> 4
+
