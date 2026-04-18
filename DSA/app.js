@@ -140,3 +140,23 @@ console.log(Math.random())
 
 let num =45.456;
 console.log(num.toFixed(2))
+
+
+// Question 1 p(1+r/100)^(t)-p
+
+let prompt = require("prompt-sync")();
+
+let p = prompt("Enter principle")
+let r = prompt("Enter rate of Interest")
+let t = prompt("Enter time ")
+
+
+console.log(p*Math.pow((1+r/100),t)-p)
+
+
+// Generate OTP
+
+console.log("The Otp is: " + Math.trunc(Math.random()*10000))
+
+//practice math method
+
