@@ -160,3 +160,5 @@ console.log("The Otp is: " + Math.trunc(Math.random()*10000))
 
 //practice math method
 
+//also learn reactjs
+
