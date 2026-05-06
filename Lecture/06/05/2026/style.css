@@ -1,3 +1,8 @@
+@font-face {
+    font-family: monu;
+    src: url();
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -19,7 +24,14 @@ h1{
     font-style: italic;
     text-align: center;
     text-transform: uppercase;
+
 }
 
 
 /* Div - a container and also help to make rectangle shape/Box*/
+
+div{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to left, red, blue, green);
+}
