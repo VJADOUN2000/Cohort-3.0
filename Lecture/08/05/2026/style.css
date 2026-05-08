@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    color: aqua;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    transform: scale(0.5);
+}
