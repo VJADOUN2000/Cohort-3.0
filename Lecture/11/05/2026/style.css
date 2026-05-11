@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: grid;
+}
+
+header{
+    background-color: aqua;
+}
+
+section{
+    background-color: blueviolet;
+}
+
+footer{
+    background-color: bisque;
+}
+
