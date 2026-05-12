@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+main{ 
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 100px calc(100% - 200px) 100px;
+}
+
+header{
+    background-color: aqua;
+    
+}
+
+section{
+    background-color: rgb(124, 54, 91);
+}
+
+aside{
+    background-color: blue;
+}
+
+footer{
+    background-color: blueviolet;
+}
