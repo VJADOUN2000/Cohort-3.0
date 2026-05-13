@@ -107,3 +107,25 @@ input{
  color: rgb(59, 57, 57);
 }
 
+.center{
+    display: flex;
+}
+
+.box1{
+    background-color: bisque;
+    height: 340px;
+    width: 300px;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+
+.box-center img{
+    position: absolute;
+    height: 240px;
+    width: 260px;
+    left: -26%;
+    top: 34%;
+    border-radius: 20px;
+    
+}
+
